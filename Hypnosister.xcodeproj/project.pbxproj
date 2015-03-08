@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0453D8AB1AAD1390004950A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453D8AA1AAD1390004950A6 /* main.m */; };
 		0453D8AE1AAD1390004950A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453D8AD1AAD1390004950A6 /* AppDelegate.m */; };
-		0453D8B11AAD1390004950A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453D8B01AAD1390004950A6 /* ViewController.m */; };
-		0453D8B41AAD1390004950A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453D8B21AAD1390004950A6 /* Main.storyboard */; };
 		0453D8B61AAD1390004950A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453D8B51AAD1390004950A6 /* Images.xcassets */; };
 		0453D8B91AAD1391004950A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453D8B71AAD1391004950A6 /* LaunchScreen.xib */; };
 		0453D8C51AAD1391004950A6 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453D8C41AAD1391004950A6 /* HypnosisterTests.m */; };
@@ -32,9 +30,6 @@
 		0453D8AA1AAD1390004950A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0453D8AC1AAD1390004950A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0453D8AD1AAD1390004950A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0453D8AF1AAD1390004950A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0453D8B01AAD1390004950A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0453D8B31AAD1390004950A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0453D8B51AAD1390004950A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0453D8B81AAD1391004950A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0453D8BE1AAD1391004950A6 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +78,6 @@
 			children = (
 				0453D8AC1AAD1390004950A6 /* AppDelegate.h */,
 				0453D8AD1AAD1390004950A6 /* AppDelegate.m */,
-				0453D8AF1AAD1390004950A6 /* ViewController.h */,
-				0453D8B01AAD1390004950A6 /* ViewController.m */,
-				0453D8B21AAD1390004950A6 /* Main.storyboard */,
 				0453D8B51AAD1390004950A6 /* Images.xcassets */,
 				0453D8B71AAD1391004950A6 /* LaunchScreen.xib */,
 				0453D8A81AAD1390004950A6 /* Supporting Files */,
@@ -199,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0453D8B41AAD1390004950A6 /* Main.storyboard in Resources */,
 				0453D8B91AAD1391004950A6 /* LaunchScreen.xib in Resources */,
 				0453D8B61AAD1390004950A6 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0453D8B11AAD1390004950A6 /* ViewController.m in Sources */,
 				0453D8AE1AAD1390004950A6 /* AppDelegate.m in Sources */,
 				0453D8AB1AAD1390004950A6 /* main.m in Sources */,
 			);
@@ -244,14 +234,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0453D8B21AAD1390004950A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0453D8B31AAD1390004950A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0453D8B71AAD1391004950A6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
