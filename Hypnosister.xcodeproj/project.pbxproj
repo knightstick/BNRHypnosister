@@ -12,6 +12,7 @@
 		0453D8B61AAD1390004950A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453D8B51AAD1390004950A6 /* Images.xcassets */; };
 		0453D8B91AAD1391004950A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453D8B71AAD1391004950A6 /* LaunchScreen.xib */; };
 		0453D8C51AAD1391004950A6 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453D8C41AAD1391004950A6 /* HypnosisterTests.m */; };
+		0453D8D01AAD1536004950A6 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453D8CF1AAD1536004950A6 /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		0453D8BE1AAD1391004950A6 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0453D8C31AAD1391004950A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0453D8C41AAD1391004950A6 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		0453D8CE1AAD1536004950A6 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		0453D8CF1AAD1536004950A6 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				0453D8AC1AAD1390004950A6 /* AppDelegate.h */,
 				0453D8AD1AAD1390004950A6 /* AppDelegate.m */,
+				0453D8CE1AAD1536004950A6 /* BNRHypnosisView.h */,
+				0453D8CF1AAD1536004950A6 /* BNRHypnosisView.m */,
 				0453D8B51AAD1390004950A6 /* Images.xcassets */,
 				0453D8B71AAD1391004950A6 /* LaunchScreen.xib */,
 				0453D8A81AAD1390004950A6 /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				0453D8AE1AAD1390004950A6 /* AppDelegate.m in Sources */,
 				0453D8AB1AAD1390004950A6 /* main.m in Sources */,
+				0453D8D01AAD1536004950A6 /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
